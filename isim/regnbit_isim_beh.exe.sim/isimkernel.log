@@ -1,0 +1,28 @@
+Command line:
+   regnbit_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49180
+
+Tue Jun  6 13:43:49 2023
+
+
+ Elaboration Time: 0.07 sec
+
+ Current Memory Usage: 200.544 Meg
+
+ Total Signals          : 253
+ Total Nets             : 147
+ Total Signal Drivers   : 136
+ Total Blocks           : 42
+ Total Primitive Blocks : 17
+ Total Processes        : 136
+ Total Traceable Variables  : 17
+ Total Scalar Nets and Variables : 516
+
+ Total Simulation Time: 0.2 sec
+
+ Current Memory Usage: 278.143 Meg
+
+Tue Jun  6 13:53:08 2023
+

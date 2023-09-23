@@ -1,0 +1,4 @@
+vhdl work "dlatch.vhd"
+vhdl work "dff.vhd"
+vhdl work "regi.vhd"
+vhdl work "regnbit.vhd"

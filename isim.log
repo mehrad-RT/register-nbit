@@ -1,0 +1,54 @@
+ISim log file
+Running: /home/ise/Downloads/digital/regnbit/regnbit_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Downloads/digital/regnbit/regnbit_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# isim force add /regnbit/clk 1 -radix bin -value 0 -radix bin -time 500 ns -repeat 1 us
+# isim force add /regnbit/en 0 -radix bin
+# isim force add /regnbit/en 1 -radix bin
+# isim force add /regnbit/reset 1 -radix bin
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1.00us
+# restart
+# isim force add /regnbit/clk 1 -radix bin -value 0 -radix bin -time 500 ns -repeat 1 us
+# isim force add /regnbit/en 1 -radix bin
+# isim force add /regnbit/reset 1 -radix bin
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1.00us
+# isim force add /regnbit/datain 11110000 -radix bin
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# isim force add /regnbit/reset 0 -radix bin
+# isim force add /regnbit/reset 0 -radix bin
+# run 1.00us
+# run 1.00us
+# isim force add /regnbit/datain 10101010 -radix bin
+# run 1.00us
+# run 1.00us
+# isim force add /regnbit/en 0 -radix bin
+# run 1.00us
+# isim force add /regnbit/datain 11001100 -radix bin
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# isim force add /regnbit/reset 1 -radix bin
+# run 1.00us
+# run 1.00us
+# exit 0
